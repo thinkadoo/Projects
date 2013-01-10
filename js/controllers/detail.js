@@ -30,6 +30,7 @@
             this.element.slideUp(200);
         },
         "detail route": function(){
+            console.log(can.route.attr());
             if(this.options.credentials.attr('username') === this.options.secret.attr('username') && this.options.credentials.attr('password') === this.options.secret.attr('password')){
                 this.show();
                 $('.my-stat').cirque ({value: 234, total: 765, arcColor: '#FF9900'});

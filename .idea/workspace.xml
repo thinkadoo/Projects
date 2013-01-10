@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fb505fa9-1061-463c-b4ee-fdd4b9694a7c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/application.js" afterPath="$PROJECT_DIR$/js/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/detail.js" afterPath="$PROJECT_DIR$/js/controllers/detail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/projects.js" afterPath="$PROJECT_DIR$/js/controllers/projects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/status.js" afterPath="$PROJECT_DIR$/js/controllers/status.js" />
     </list>
     <ignored path="boynton.mobi.views.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +27,7 @@
       <file leaf-file-name="detail.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/controllers/detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="9" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0">
+            <state line="32" column="40" selection-start="881" selection-end="897" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -39,7 +36,7 @@
       <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="31" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+            <state line="3" column="21" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -56,19 +53,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="57" selection-start="2299" selection-end="2299" vertical-scroll-proportion="0.76043737">
+            <state line="50" column="62" selection-start="2224" selection-end="2224" vertical-scroll-proportion="-31.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signin.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="signin.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/controllers/signin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="57" selection-start="2382" selection-end="2382" vertical-scroll-proportion="0.0">
+            <state line="58" column="57" selection-start="2382" selection-end="2382" vertical-scroll-proportion="0.7815534">
               <folding />
             </state>
           </provider>
@@ -110,10 +107,10 @@
         <option value="$PROJECT_DIR$/views/signin.ejs" />
         <option value="$PROJECT_DIR$/js/controllers/status.js" />
         <option value="$PROJECT_DIR$/js/controllers/projects.js" />
-        <option value="$PROJECT_DIR$/js/controllers/detail.js" />
-        <option value="$PROJECT_DIR$/js/application.js" />
         <option value="$PROJECT_DIR$/js/controllers/signin.js" />
+        <option value="$PROJECT_DIR$/js/controllers/detail.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/application.js" />
       </list>
     </option>
   </component>
@@ -373,29 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/status.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="21" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="9" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/projects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="23" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0">
@@ -405,16 +379,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/signin.js">
+    <entry file="file://$PROJECT_DIR$/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="57" selection-start="2382" selection-end="2382" vertical-scroll-proportion="0.0">
+        <state line="3" column="21" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/status.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="21" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="57" selection-start="2299" selection-end="2299" vertical-scroll-proportion="0.76043737">
+        <state line="50" column="62" selection-start="2224" selection-end="2224" vertical-scroll-proportion="-31.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="40" selection-start="881" selection-end="897" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/signin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="57" selection-start="2382" selection-end="2382" vertical-scroll-proportion="0.7815534">
           <folding />
         </state>
       </provider>

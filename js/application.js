@@ -1,7 +1,7 @@
 (function() {
     $(function() {
         // Set up a route that maps to the `detail/id` attribute
-        can.route( ':detail/:id' );
+        can.route( ':route/:id' );
         // Delay routing until we initialized everything
         can.route.ready(false);
 
