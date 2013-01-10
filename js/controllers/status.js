@@ -29,7 +29,7 @@
         hide: function(){
             this.element.slideUp(200);
         },
-        '{document} #status click': function(){
+        'status route': function(){
             if(this.options.credentials.attr('username') === this.options.secret.attr('username') && this.options.credentials.attr('password') === this.options.secret.attr('password')){
                 this.show();
             }

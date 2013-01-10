@@ -1,12 +1,12 @@
 (function() {
     $(function() {
-        // Set up a route that maps to the `filter` attribute
-        //can.route( ':filter' );
+        // Set up a route that maps to the `detail/id` attribute
+        can.route( ':detail/:id' );
         // Delay routing until we initialized everything
-        //can.route.ready(false);
+        can.route.ready(false);
 
         var Credentials = new can.Observe({username:'',password:''});
-        var Secret = new can.Observe({username:'user@mail.com',password:'password'});
+        var Secret = new can.Observe({username:'a',password:''});
 
         // Initialize the app
         var projectsMode = new Projects('#application', {'credentials':Credentials,'secret':Secret});
@@ -15,7 +15,7 @@
         var signinMode = new Signin('#application', {'credentials':Credentials, 'projectsMode':projectsMode,'secret':Secret});
 
         // Now we can start routing
-        //can.route.ready(true);
+        can.route.ready(true);
     });
 
 })();
