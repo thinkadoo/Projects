@@ -6,7 +6,7 @@
         can.route.ready(false);
 
         var Credentials = new can.Observe({username:'',password:''});
-        var Secret = new can.Observe({username:'a',password:''});
+        var Secret = new can.Observe({username:'a',password:'a'});
 
         // Initialize the app
         var projectsMode = new Projects('#application', {'credentials':Credentials,'secret':Secret});

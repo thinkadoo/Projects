@@ -49,6 +49,19 @@
             this.options.credentials.attr({'username':usrn});
             this.options.credentials
         },
+        'form-signin keyup': function(el, e) {
+            var username = this.options.credentials.attr('username');
+            var password = this.options.credentials.attr('password');
+            if (e.keyCode === ENTER_KEY && username !== '' && password !== '') {
+                if(this.options.credentials.attr('username') === this.options.secret.attr('username') && this.options.credentials.attr('password') === this.options.secret.attr('password')){
+                    this.show();
+                }else{
+                    this.options.credentials.attr('username','');
+                    this.options.credentials.attr('password','');
+                    this.signinshow();
+                }
+            }
+        },
         '{document} #signin click': function(){
             if(this.options.credentials.attr('username') === this.options.secret.attr('username') && this.options.credentials.attr('password') === this.options.secret.attr('password')){
                 this.show();
