@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fb505fa9-1061-463c-b4ee-fdd4b9694a7c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/application.css" afterPath="$PROJECT_DIR$/css/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/application.js" afterPath="$PROJECT_DIR$/js/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/signin.js" afterPath="$PROJECT_DIR$/js/controllers/signin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/projects.ejs" afterPath="$PROJECT_DIR$/views/projects.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/detail.js" afterPath="$PROJECT_DIR$/js/controllers/detail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/detail.ejs" afterPath="$PROJECT_DIR$/views/detail.ejs" />
     </list>
     <ignored path="boynton.mobi.views.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,37 +27,37 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/application.js">
+      <file leaf-file-name="detail.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controllers/detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="62" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+            <state line="146" column="62" selection-start="5269" selection-end="5269" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signin.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/controllers/signin.js">
+      <file leaf-file-name="horizontal.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/charts/horizontal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="70" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="18" selection-end="556" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/models/projects.js">
+      <file leaf-file-name="vertical.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/charts/vertical.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.2184466">
+            <state line="2" column="0" selection-start="18" selection-end="576" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signin.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/signin.ejs">
+      <file leaf-file-name="detail.ejs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/detail.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="24" selection-start="13" selection-end="24" vertical-scroll-proportion="-0.0">
+            <state line="86" column="20" selection-start="1956" selection-end="1956" vertical-scroll-proportion="1.2823062">
               <folding />
             </state>
           </provider>
@@ -75,22 +76,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/models/signin.js" />
         <option value="$PROJECT_DIR$/js/models/detail.js" />
         <option value="$PROJECT_DIR$/js/models/status.js" />
         <option value="$PROJECT_DIR$/views/status.ejs" />
-        <option value="$PROJECT_DIR$/views/detail.ejs" />
         <option value="$PROJECT_DIR$/views/home.ejs" />
         <option value="$PROJECT_DIR$/views/signin.ejs" />
         <option value="$PROJECT_DIR$/js/controllers/status.js" />
         <option value="$PROJECT_DIR$/js/controllers/projects.js" />
-        <option value="$PROJECT_DIR$/js/controllers/detail.js" />
         <option value="$PROJECT_DIR$/js/fixtures/projects.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/views/projects.ejs" />
-        <option value="$PROJECT_DIR$/js/application.js" />
         <option value="$PROJECT_DIR$/js/controllers/signin.js" />
         <option value="$PROJECT_DIR$/js/models/projects.js" />
+        <option value="$PROJECT_DIR$/css/application.css" />
+        <option value="$PROJECT_DIR$/js/application.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/controllers/detail.js" />
+        <option value="$PROJECT_DIR$/views/detail.ejs" />
       </list>
     </option>
   </component>
@@ -209,6 +210,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -255,13 +302,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1916" height="1178" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20213903" sideWeight="0.99810785" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21550801" sideWeight="0.99810785" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -329,98 +376,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/application.js">
+    <entry file="file://$PROJECT_DIR$/js/models/projects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="65" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/models/status.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="221" selection-end="221" vertical-scroll-proportion="0.2038835" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/status.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="282" selection-end="1029" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/detail.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="17" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.5964215" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/status.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="21" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="23" selection-start="853" selection-end="853" vertical-scroll-proportion="0.4514563" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="56" selection-start="3678" selection-end="3678" vertical-scroll-proportion="1.4015905" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/models/detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="194" selection-end="194" vertical-scroll-proportion="0.10194175" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/projects.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="456" selection-end="456" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="9" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.46601942">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/models/signin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/signin.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="13" selection-end="24" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="62" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.2184466">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/signin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="70" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0">
+        <state line="45" column="38" selection-start="1726" selection-end="1734" vertical-scroll-proportion="0.40291262">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/models/projects.js">
+    <entry file="file://$PROJECT_DIR$/views/status.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.2184466">
+        <state line="10" column="0" selection-start="282" selection-end="1029" vertical-scroll-proportion="0.105367795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/status.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="21" selection-start="843" selection-end="843" vertical-scroll-proportion="0.37864077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="1" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="60" selection-start="353" selection-end="353" vertical-scroll-proportion="0.116504855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/Theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/Charts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="34" selection-start="43" selection-end="60" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/charts/line.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/charts/donut.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="18" selection-end="298" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="66" selection-start="4175" selection-end="4175" vertical-scroll-proportion="1.5208747">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/charts/pie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="18" selection-end="463" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/charts/vertical.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="18" selection-end="576" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/charts/horizontal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="18" selection-end="556" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="62" selection-start="5269" selection-end="5269" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/detail.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="20" selection-start="1956" selection-end="1956" vertical-scroll-proportion="1.2823062">
           <folding />
         </state>
       </provider>
